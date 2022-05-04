@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: appointment-service
+
+server:
+  port: 4002
+  address: 0.0.0.0
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:3000/eureka/
+
+info:
+  app:
+    name: appointment-service
+    description: Spring Cloud Application Managing Appointment Instances
+    version: 1.0-SNAPSHOT
+
+logging:
+  pattern:
+    console: "%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n"
+  level:
+    root: INFO
+    org.springframework: DEBUG
+    com.apress.cems: DEBUG
+
+

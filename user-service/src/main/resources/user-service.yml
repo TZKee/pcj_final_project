@@ -1,0 +1,42 @@
+spring:
+  application:
+    name: user-service
+  config:
+    import: optional:configserver:http://localhost:8888
+  profiles:
+    active: local
+
+server:
+  port: 4001
+  address: 0.0.0.0
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:3000/eureka/
+
+info:
+  app:
+    name: user-service
+    description: Spring Cloud Application Managing User Instances
+    version: 1.0-SNAPSHOT
+
+logging:
+  pattern:
+    console: "%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n"
+  level:
+    root: INFO
+    org.springframework: DEBUG
+    com.apress.cems: DEBUG
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+resilience4j.circuitbreaker:
+  instances:
+    catalogService:
+      recordExceptionsAsSuccess:
+        - org.springframework.web.client.HttpClientErrorException

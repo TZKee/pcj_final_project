@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/../Laboratoare/Anul III sem II/Programare in Cloud cu Java/spring-cloud-final-project/api-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Laboratoare/Anul III sem II/Programare in Cloud cu Java/spring-cloud-final-project/appointment-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Laboratoare/Anul III sem II/Programare in Cloud cu Java/spring-cloud-final-project/circuit-breaker/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Laboratoare/Anul III sem II/Programare in Cloud cu Java/spring-cloud-final-project/circuit-breaker/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Laboratoare/Anul III sem II/Programare in Cloud cu Java/spring-cloud-final-project/config-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Laboratoare/Anul III sem II/Programare in Cloud cu Java/spring-cloud-final-project/discovery-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Laboratoare/Anul III sem II/Programare in Cloud cu Java/spring-cloud-final-project/user-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/api-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/appointment-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/discovery-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/user-service/src/main/java" charset="UTF-8" />
+  </component>
+</project>
